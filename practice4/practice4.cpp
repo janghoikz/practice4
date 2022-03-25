@@ -14,4 +14,10 @@ int main()
 	PrintListRecursive(myList.pHead);
 
 	std::cout << ((FindMonster(myList, "slime") == nullptr) ? "Not Found" : "Found") << std::endl;
+	
+	Delete(myList, "slime");
+	Delete(myList, "wolf");
+	Delete(myList, "Demon");
+
+	PrintMonsterList(myList);
 }

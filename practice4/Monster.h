@@ -9,3 +9,12 @@ struct Monster
 
 	Monster* pNext;
 };
+
+struct Monster2
+{
+	char name[NAME_LENGTH];
+	int hp;
+
+	Monster* pNext;
+	Monster* pPrev;
+};
